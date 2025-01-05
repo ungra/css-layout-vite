@@ -1,11 +1,10 @@
 body {
-  background-color: tomato;
+  display: flex;
+  justify-content: space-between;
 }
 
 .box {
-  display: inline-block;
+  background-color: tomato;
   width: 100px;
   height: 100px;
-  background-color: blue;
-  margin-right: 100px;
 }

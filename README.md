@@ -7,3 +7,9 @@ display
 margin right -> float
 간격을 계산해서 값을 적어야 하므로 반응형 layout을 구현하기 어려움.
 -> flexbox 나오게 됨.
+
+<flexbox>
+    container(parent)에 지정하고 child에 적용.
+    반응형 Layout이 적용됨.
+    display : flex;
+    justify-content: 가로 방향으로 어떻게 배치할지...
