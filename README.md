@@ -9,7 +9,9 @@ margin right -> float
 -> flexbox 나오게 됨.
 
 <flexbox>
-    container(parent)에 지정하고 child에 적용.
+    container(parent)에 지정하고 child에 적용됨.
     반응형 Layout이 적용됨.
     display : flex;
     justify-content: 가로 방향으로 어떻게 배치할지...
+
+    flex-direction : flex의 방향. default값은 row;
