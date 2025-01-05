@@ -15,3 +15,13 @@ margin right -> float
     justify-content: 가로 방향으로 어떻게 배치할지...
 
     flex-direction : flex의 방향. default값은 row;
+
+<flexbox axis>
+    main axis : 주축
+    cross axis : 교차축
+    둘다 flex-direction에 영향을 받음.
+    ex) flex-direction: row면 main axis는 가로(left -> right), cross axis는 세로(top -> bottom)
+
+    justify-content : main axis에서 아이템을 배치하는 rule. space-between, space-around를 가장 많이 사용.
+
+    align-items: cross axis에서 아이템을 배치하는 rule.
